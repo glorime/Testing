@@ -1,0 +1,11 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+
+public class Navigation: MonoBehaviour
+{                                              
+    public void Navigate(string levelToLoad)
+    {
+        SceneManager.LoadScene(levelToLoad);
+    }
+}
